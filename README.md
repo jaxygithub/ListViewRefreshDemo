@@ -1,0 +1,1 @@
+本项目是自己手动完成，万能adapter（不需要每次都重写个Adapter，指针对RecyclerView），可使用下拉刷新、上拉加载更多的RecyclerView。可使用下拉刷新的ListView。
