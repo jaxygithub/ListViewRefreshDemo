@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_index"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xjj.pulltorefresh.demo.activity.RcvActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="RecyclerView"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:background="#ffaa00"/>
+
+    <com.xjj.pulltorefresh.demo.views.XJJRecyclerView
+        android:id="@+id/index_rcv"
+        android:background="#f2f2f2"
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.xjj.pulltorefresh.demo.views.XJJRecyclerView>
+
+</LinearLayout>

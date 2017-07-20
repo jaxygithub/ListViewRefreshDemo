@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    tools:context="com.xjj.pulltorefresh.demo.activity.MainActivity">
+
+    <TextView
+        android:onClick="goRcv"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:text="RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:onClick="goLv"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:text="ListView"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+</LinearLayout>

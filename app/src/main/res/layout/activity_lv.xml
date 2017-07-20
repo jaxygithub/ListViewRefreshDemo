@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xjj.pulltorefresh.demo.activity.LvActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="ListView"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:background="#ffaaaa"/>
+
+    <com.xjj.pulltorefresh.demo.views.XMyListView
+        android:id="@+id/main_listview"
+        android:scrollbars="none"
+        android:background="#f2f2f2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.xjj.pulltorefresh.demo.views.XMyListView>
+
+</LinearLayout>
